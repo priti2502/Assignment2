@@ -7,11 +7,19 @@
             SumAvgofArray sum=new SumAvgofArray();
             sum.displaySumAvg();
 
+
+            SumOfMatrix sumOfMatrix = new SumOfMatrix();
+            sumOfMatrix.displaySum();
+
             MaxElement max=new MaxElement(); 
             max.displayMax(); 
 
-            SumOfMatrix sumOfMatrix =new SumOfMatrix();
-            sumOfMatrix.displaySum();
+
+            ColumnSum sumOfColumn = new ColumnSum();
+            sumOfColumn.displayColumnSum();
+
+            RowSum sumOfRow = new RowSum(); 
+            sumOfRow.displayRowSum(); 
 
         }
     }
